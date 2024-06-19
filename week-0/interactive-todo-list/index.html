@@ -4,25 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Interactive to-do list</title>
     <script src="./script.js"></script>
   </head>
   <body>
     <h1>To-Do List</h1>
-    <div>
+    <div class="input-container">
       <input type="text" id="title" placeholder="Title" />
-      <input
-        type="text"
-        id="description"
-        placeholder="Description (optional)"
-      />
+      <input type="text" id="description" placeholder="Description" />
       <input type="datetime-local" id="dueDate" />
-      <button id="addButton">Add To-Do</button>
+      <button id="addButton">Add</button>
+      <button id="sortAsc">Sort Ascending</button>
+      <button id="sortDesc">Sort Descending</button>
     </div>
-    <div>
-      <button id="sortAsc">Sort by Due Date (Ascending)</button>
-      <button id="sortDesc">Sort by Due Date (Descending)</button>
-    </div>
-    <div id="todoList"></div>
+    <div id="todoList" class="todo-list"></div>
   </body>
 </html>

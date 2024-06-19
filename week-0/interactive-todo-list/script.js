@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Create a new to-do item object
     const todo = {
-      id: Date.now(), // Unique ID based on the current timestamp
+      id: Date.now(),
       title,
       description,
       dueDate: new Date(dueDate),
