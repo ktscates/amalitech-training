@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Function to toggle the completion status of a to-do item
   function toggleComplete(id) {
-    const todo = todos.find((t) => t.id === id);
+    const todo = todos.find((item) => item.id === id);
     if (todo) {
       todo.completed = !todo.completed;
       renderTodos();
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Function to edit a to-do item
   function editTodo(id) {
-    const todo = todos.find((t) => t.id === id);
+    const todo = todos.find((item) => item.id === id);
     if (todo) {
       // Populate the input fields with the current values of the item
       titleInput.value = todo.title;
@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Function to delete a to-do item
   function deleteTodo(id) {
-    todos = todos.filter((t) => t.id !== id);
+    todos = todos.filter((item) => item.id !== id);
     renderTodos();
   }
 
