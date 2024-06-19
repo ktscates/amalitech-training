@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <div>
+      <input type="text" id="title" placeholder="Title" />
+      <input
+        type="text"
+        id="description"
+        placeholder="Description (optional)"
+      />
+      <input type="datetime-local" id="dueDate" />
+      <button id="addButton">Add To-Do</button>
+    </div>
+    <div>
+      <button id="sortAsc">Sort by Due Date (Ascending)</button>
+      <button id="sortDesc">Sort by Due Date (Descending)</button>
+    </div>
+    <div id="todoList"></div>
+  </body>
+</html>
