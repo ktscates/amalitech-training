@@ -16,3 +16,11 @@ Clone the repository:
 
    ```bash
    git clone https://github.com/ktscates/amalitech-training.git
+
+### Challenges Live Links
+
+Interactive TODO list: [Live](https://amalitech-training-challenges.netlify.app/interactive-todo-list/)
+
+Interactive Image Gallery: [Live](https://amalitech-training-challenges.netlify.app/interactive-image-gallery/)
+
+Building with Closures: [Live](https://amalitech-training-challenges.netlify.app/building-with-closures/)
