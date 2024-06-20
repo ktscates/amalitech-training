@@ -2,17 +2,6 @@
 
 Welcome to the Amalitech Training Repository! This repository contains code examples and exercises related to the training program at Amalitech. Here you will find practical implementations and learning materials covering various topics.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Structure](#structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This repository houses code examples and exercises for the Amalitech training program. It includes JavaScript examples. These examples are designed to help learners understand fundamental concepts and apply them in practical scenarios.
