@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #36454f;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 20px 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: coral;
+  box-shadow: inset;
+  border-radius: 12px;
+  border: none;
+}
+
+#timerDisplay {
+  font-size: 25px;
+  margin-top: 20px;
+  color: lawngreen;
+}
