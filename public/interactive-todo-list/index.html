@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Interactive to-do list</title>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <div class="input-container">
+      <input type="text" id="title" placeholder="Title" />
+      <input type="text" id="description" placeholder="Description" />
+      <input type="date" id="dueDate" />
+      <button id="addButton">Add</button>
+      <button id="sortAsc">Sort Ascending</button>
+      <button id="sortDesc">Sort Descending</button>
+    </div>
+    <div id="todoList" class="todo-list"></div>
+  </body>
+</html>
