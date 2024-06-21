@@ -25,4 +25,6 @@ Interactive Image Gallery: [Live](https://amalitech-training-challenges.netlify.
 
 Building with Closures: [Live](https://amalitech-training-challenges.netlify.app/building-with-closures/)
 
+Advice Generator App: [Live](https://amalitech-training-challenges.netlify.app/advice-generator-app/)
+
 
