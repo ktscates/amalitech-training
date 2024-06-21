@@ -1,3 +1,4 @@
+// Wait for the DOM to be fully loaded before executing the script
 document.addEventListener("DOMContentLoaded", () => {
   const adviceNumber = document.getElementById("advice-number");
   const adviceText = document.getElementById("advice-text");
