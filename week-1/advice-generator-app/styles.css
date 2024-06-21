@@ -1,0 +1,104 @@
+body {
+  background-color: #1f2632;
+  color: #cfe3e6;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.advice-container {
+  text-align: center;
+  position: relative;
+}
+
+.advice-card {
+  background-color: #323a49;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#advice-number {
+  color: #53ffaa;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+#advice-text {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+/* .divider {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: #444b5b;
+  margin: 20px 0 40px;
+} */
+
+#new-advice-button {
+  background-color: #53ffaa;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  bottom: -30px; /* Adjust this value to position the button */
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#new-advice-button:hover {
+  filter: drop-shadow(0px 0px 10px #52ffa8);
+}
+
+#new-advice-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.divider {
+  position: relative;
+  width: 100%;
+  margin: 20px 0 40px;
+}
+
+.mobile-divider {
+  display: none;
+}
+
+.desktop-divider {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 20px; /* Add padding for smaller screens */
+    padding-right: 20px; /* Add padding for smaller screens */
+  }
+
+  .advice-card {
+    padding-left: 20px; /* Add padding for smaller screens */
+    padding-right: 20px; /* Add padding for smaller screens */
+  }
+
+  .mobile-divider {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .desktop-divider {
+    display: block;
+  }
+}
