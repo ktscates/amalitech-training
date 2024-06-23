@@ -11,10 +11,11 @@ This repository houses code examples and exercises for the Amalitech training pr
 To get started with the examples in this repository, follow the instructions below.
 
 ### Installation
+
 Clone the repository:
 
-   ```bash
-   git clone https://github.com/ktscates/amalitech-training.git
+```bash
+git clone https://github.com/ktscates/amalitech-training.git
 ```
 
 ### Challenges Live Links
@@ -27,4 +28,6 @@ Building with Closures: [Live](https://amalitech-training-challenges.netlify.app
 
 Advice Generator App: [Live](https://amalitech-training-challenges.netlify.app/advice-generator-app/)
 
+Object Mastery: [Live](https://amalitech-training-challenges.netlify.app/object-mastery/)
 
+Time Master: [Live](https://amalitech-training-challenges.netlify.app/time-master/)
