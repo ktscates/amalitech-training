@@ -29,16 +29,16 @@ function Superhero(name, secretIdentity, powers, weakness) {
 Superhero.prototype.usePower = function (powerName) {
   if (this.powers.includes(powerName)) {
     console.log(`${this.name} uses ${powerName}!`);
-    addLog(`${this.name} uses ${powerName}!`);
+    addGameLog(`${this.name} uses ${powerName}!`);
   } else {
     console.log(`${this.name} doesn't have the power ${powerName}`);
-    addLog(`${this.name} doesn't have the power ${powerName}`);
+    addGameLog(`${this.name} doesn't have the power ${powerName}`);
   }
 };
 
 Superhero.prototype.revealIdentity = function () {
   console.log(`The secret identity of ${this.name} is ${this.secretIdentity}!`);
-  addLog(`The secret identity of ${this.name} is ${this.secretIdentity}!`);
+  addGameLog(`The secret identity of ${this.name} is ${this.secretIdentity}!`);
 };
 
 //Villain contructor
@@ -51,7 +51,7 @@ Villain.prototype.constructor = Villain;
 
 Villain.prototype.attack = function (hero) {
   console.log(`${this.name} attacks ${hero.name}!`);
-  addLog(`${this.name} attacks ${hero.name}!`);
+  addGameLog(`${this.name} attacks ${hero.name}!`);
 };
 
 // Creating superheroes
@@ -161,7 +161,7 @@ function startBattle() {
 }
 
 // Function to add log entries to the battle log div
-function addLog(message) {
+function addGameLog(message) {
   let log = document.getElementById("battleLog");
   let entry = document.createElement("p");
   entry.textContent = message;

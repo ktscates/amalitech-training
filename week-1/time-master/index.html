@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Hero: Time Mastery</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="clock-container">
+      <div class="time-box">
+        <div id="hours" class="time"></div>
+        <div class="label">HOURS</div>
+      </div>
+      <div class="time-box">
+        <div id="minutes" class="time"></div>
+        <div class="label">MINUTES</div>
+      </div>
+      <div class="time-box">
+        <div id="seconds" class="time"></div>
+        <div class="label">SECONDS</div>
+      </div>
+      <div class="time-box">
+        <div id="ampm" class="time"></div>
+        <div class="label">AM/PM</div>
+      </div>
+      <div class="alarm-container">
+        <label for="alarm-hours">Set Alarm (HH:MM):</label>
+        <input
+          type="number"
+          id="alarm-hours"
+          placeholder="HH"
+          min="0"
+          max="23"
+        />
+        <input
+          type="number"
+          id="alarm-minutes"
+          placeholder="MM"
+          min="0"
+          max="59"
+        />
+        <button id="set-alarm">Set Alarm</button>
+      </div>
+    </div>
+  </body>
+</html>
